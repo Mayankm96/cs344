@@ -61,7 +61,7 @@ void rgba_to_greyscale(const uchar4* const rgbaImage,
   if (r >= numRows || c >= numCols)
       return;
 
-  //Since image matrix is stored in column major manner
+  //Since image matrix is stored in row major manner
   int index = r * numCols + c;
   uchar4 rgba = rgbaImage[index];
   float channelSum = .299f * rgba.x + .587f * rgba.y + .114f * rgba.z;
