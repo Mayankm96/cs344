@@ -37,4 +37,4 @@ __NOTE:__ Number of threads in a block = blockDim.x * blockDim.y * blockDim.z
 
 ## Sources
 * [CUDA Teaching Center for HPC, Wake Forest University](http://users.wfu.edu/choss/CUDA/)
-* [Intro to image processing with CUDA] (http://supercomputingblog.com/cuda/intro-to-image-processing-with-cuda/)
+* [Intro to image processing with CUDA](http://supercomputingblog.com/cuda/intro-to-image-processing-with-cuda/)
